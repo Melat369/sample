@@ -1,0 +1,143 @@
+body{
+    padding:0px;
+    margin: 0px;
+    background: rgb(239,214,241);
+    background: radial-gradient(circle, rgba(239,214,241,1) 38%, rgba(255,254,255,1) 100%); 
+    font-family: 'Great Vibes', cursive;
+    /* font-family: 'Montserrat', sans-serif; */
+    text-decoration: none;
+}
+a{
+    /* color: #FB2576; */
+    /* color:black; */
+    color: #285430;
+    font-weight: 400;
+    text-decoration: none;
+}
+a.nav-item{
+    font-size: 25px;
+    font-weight: 300;
+}
+a:hover{
+    
+    color: #FFB9B9;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Great Vibes', cursive;
+    color: #FB2576;
+
+}
+p{
+    color: #FEA1BF;
+    font-weight: 800;
+}
+#header{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: white;
+}
+#header .logo{
+    float: left;
+    line-height: 1;
+    font-weight: 300;
+    padding-top: 30px;
+padding-left: 10%;
+padding-right:10% ;
+
+}
+.nav-menue ul{
+list-style: none; 
+align-items:center;   
+justify-content: space-between;
+padding-top: 30px;
+padding-left: 10%;
+padding-right:10% ;
+font-size: 30px;
+font-weight: 400;
+
+}
+.nav-menue >ul{
+    display: flex;
+
+}
+.nav-menue >ul >li{
+    position: relative;
+    white-space: nowrap;
+    padding: 10px 0 10px 22px;
+    text-decoration: none;
+}
+.container{
+    background-position: center;
+}
+.get-started-btn{
+    padding-top: 30px;
+padding-left: 10%;
+padding-right:10% ;
+
+
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* background: rgba(0,0,0,0.7); */
+    z-index:1;
+
+}
+.w-100{
+    height:100v;
+    max-height:1000px;
+}
+/* *******making it resopnsive ******/
+@media only screen and (max-width:767px)
+{
+    .nav-menue{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 125px;
+    }
+    .carousel-caption h5{
+        
+        font-size: 15px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+}
+.about-img img
+{
+    position: relative;
+    width: 500px;
+    height: 250px;
+    margin-left: 0;
+    margin-top: 20px;
+    float: left;
+    z-index: -1;
+    margin-bottom: 20px;
+}
+ /* .row{
+    margin-left: 0;
+    float:left;
+} */
+ .about-text{
+    float: right;
+}
+/*  .section-header {
+    text-align: center;
+    padding-top: 50px; 
+} */
+#services{
+    margin-bottom: 50px;
+}
+#services.card-body i{
+    font-size: 100px;
+}
+#services .section-header{
+    text-align: center;
+    margin-top: 60px;
+}

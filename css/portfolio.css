@@ -1,0 +1,26 @@
+.nav-link{
+    color:darkslategrey;
+}
+.nav-link:hover{
+    color: darkcyan;
+}
+.navbar-brand{
+    font-size: 50px;
+    font-style:  'Great Vibes', cursive;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.card2{
+    float: left;
+}
+.card2 img{
+    height: 700px;
+    width: auto;
+
+}
+
+.card1 img{
+    height: 500px;
+    width: auto;
+}

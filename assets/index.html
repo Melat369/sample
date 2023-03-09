@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title>Frontend Bootcamp</title>
+</head> 
+<body> 
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">Frontend Bootcamp</a>
+
+        <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navmenu"
+            >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#learn" class="nav-link">What You'll Learn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#questions" class="nav-link">Questions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Instructors" class="nav-link">Instructors</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="bg-dark text-light p-5 p-lg-0 pt-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Become a <span class="text-warning">Web Developer</span></h1>
+                    <p class="lead my-4">Our goal is to equip our students with a solid understanding of the most current and advanced methods, so they are ready to excel in their initial developer position.
+                    </p>
+
+                    <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Start The Enrollment</button>
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="img/coder.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="bg-primary text-light p-5">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
+                <div class="input-group">
+                    <input 
+                        type="text" 
+                        class="form-control" 
+                        placeholder="Enter Email" 
+                     >
+                    <button 
+                        class="btn btn-dark btn-lg"
+                        type="button" 
+                        id="button-addon2"
+                     >
+                     Submit
+                    </button>
+                  </div>
+                  
+            </div>
+        </div>
+    </section>
+
+    <!-- Boxes -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                           <h3 class="card-title">Virtual</h3> 
+                           <p class="card-text">Our online classes can be accessed anywhere, anytime. These classes are delivered in a series of pre-recorded videos, interactive virtual classrooms, and live webinars, making it easy for students to learn at their own pace and schedule. </p>
+                           <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-person-square"></i>
+                            </div>
+                           <h3 class="card-title">Hybrid</h3> 
+                           <p class="card-text">Our hybrid classes are suitable for students who live near our location. Students can access virtual classes at their own pace, and supplement their learning with in-person classes that provide hands-on instruction and opportunities for group projects and feedback.</p>
+                           <a href="#" class="btn btn-dark">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-people"></i>
+                            </div>
+                           <h3 class="card-title">In Person</h3> 
+                           <p class="card-text">Our students can learn in a physical classroom with their instructors helping them. They also include group projects, quizzes, assignments and interactive sessions where students can interact with their instructors.</p>
+                           <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learn Sections -->
+    <section id="learn" class="p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="img/fundamentals.svg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md p-5">
+                    <h2>Learn the Fundamentals</h2>
+                    <p class="lead">
+                        Our classes offer a comprehensive introduction to the fundamentals of HTML, CSS, and Javascript.
+                    </p>
+                    <p> You will learn the basic building blocks of web development, including the structure of a webpage, styling elements, and creating interactive elements. This includes understanding how to use HTML to create the structure of a webpage, how to use CSS to style it and make it visually appealing, and how to use JavaScript to make the page interactive. These classes are an essential foundation for anyone looking to learn web development and will give you a solid understanding of the basics of HTML, CSS and JavaScript.</p>
+                    <a href="" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right"></i>Read More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="learn" class="p-5 bg-dark text-light" >
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5">
+                    <h2>Learn React</h2>
+                    <p class="lead">
+                        Our classes offer a comprehensive introduction to the fundamentals of React.
+                    </p>
+                    <p>You will learn the basics of React, including how to create reusable components, how to manage the state of your application and how to use React's virtual DOM to improve the performance of your application. These classes will give you a solid understanding of the basics of React and prepare you to build dynamic and interactive web applications with React.</p>
+                    <a href="" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right"></i>Read More
+                    </a>
+                </div>
+                <div class="col-md">
+                    <img src="img/react.svg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Question Accordion -->
+    <section id="questions" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+            <div class="accordion accordion-flush" id="questions">
+                <!-- item 1 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" 
+                  >
+                    <button 
+                    class="accordion-button collapsed" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#question-one" 
+                    >
+                      Where exactly are you located?
+                    </button>
+                  </h2>
+                  <div 
+                  id="question-one" 
+                  class="accordion-collapse collapse" 
+                  data-bs-parent="#questions">
+                    <div 
+                    class="accordion-body"
+                    >
+                    Our primary location is situated in the city of Bahirdar, Ethiopia. Specifically, we are located within the grounds of Poly Campus. As we continue to grow and expand our operations, we have plans to open additional offices in various locations throughout the country in the near future, so we can serve more clients and continue to make our services more accessible to people from all over Ethiopia.</div>
+                  </div>
+                </div>
+                <!-- item 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" 
+                    >
+                      <button 
+                      class="accordion-button collapsed" 
+                      type="button" 
+                      data-bs-toggle="collapse" 
+                      data-bs-target="#question-two" 
+                      >
+                        How much does it cost to attend?
+                      </button>
+                    </h2>
+                    <div 
+                    id="question-two" 
+                    class="accordion-collapse collapse" 
+                    data-bs-parent="#questions">
+                      <div 
+                      class="accordion-body"
+                      >
+                      The expense for participating in our classes is contingent on the format of the class. Our online classes are priced at Birr 3000, our hybrid classes are priced at Birr 5000, and our in-person classes are priced at Birr 7000. We understand that some individuals may require financial assistance and we do offer different payment options and financial aid for those who are eligible. If you have any questions about the pricing of our classes or need further information, please don't hesitate to contact us.</div>
+                    </div>
+                  </div>
+                <!-- item 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" 
+                    >
+                      <button 
+                      class="accordion-button collapsed" 
+                      type="button" 
+                      data-bs-toggle="collapse" 
+                      data-bs-target="#question-three" 
+                      >
+                       What skills do I need to know?
+                      </button>
+                    </h2>
+                    <div 
+                    id="question-three" 
+                    class="accordion-collapse collapse" 
+                    data-bs-parent="#questions">
+                      <div 
+                      class="accordion-body"
+                      >
+                      Prior knowledge of HTML, CSS, Javascript, and React is not a pre-requisite for attending our classes. However, having basic computer skills, such as the ability to navigate the internet and work with files, is necessary. Our classes are designed to teach the fundamentals of these subjects, starting from scratch and progressing through the material. While having some prior knowledge of these subjects may be beneficial, it is not a requirement for participating in our classes. We will guide you through the basics and help you build on that foundation throughout the course.</div>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" 
+                    >
+                      <button 
+                      class="accordion-button collapsed" 
+                      type="button" 
+                      data-bs-toggle="collapse" 
+                      data-bs-target="#question-four" 
+                      >
+                        How long does it take to finish the course?
+                      </button>
+                    </h2>
+                    <div 
+                    id="question-four" 
+                    class="accordion-collapse collapse" 
+                    data-bs-parent="#questions">
+                      <div 
+                      class="accordion-body"
+                      >
+                      The length of time it takes to learn the fundamentals of HTML, CSS, Javascript, and React can vary depending on your prior experience and the amount of time you are able to dedicate to learning. However, on average, it can take anywhere from 4-6 weeks to learn the basics of HTML and CSS, and an additional 2-4 weeks to learn the basics of Javascript. React can take around 1-2 months to learn the basics. However, it's important to remember that true proficiency in these technologies takes ongoing practice and experience. We recommend you to join our online classes which are designed to help you learn at your own pace.</div>
+                    </div>
+                </div>
+                <!-- Item 5 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" 
+                    >
+                      <button 
+                      class="accordion-button collapsed" 
+                      type="button" 
+                      data-bs-toggle="collapse" 
+                      data-bs-target="#question-five" 
+                      >
+                        Do you help me to find a job?
+                      </button>
+                    </h2>
+                    <div 
+                    id="question-five" 
+                    class="accordion-collapse collapse" 
+                    data-bs-parent="#questions">
+                      <div 
+                      class="accordion-body"
+                      >
+                      Yes, we do offer job assistance to our students. Our classes provide various resources and career services to help students find job opportunities in their field of study. This includes resume building, interview preparation, and networking opportunities with industry professionals. We also have a dedicated career services team that works closely with students to help them find job opportunities that match their skills and interests. We understand that getting a job after completing a course is important, that's why we put effort to help our graduates to find a suitable job.</div>
+                    </div>
+                  </div>
+              </div> 
+        </div>
+    </section>
+    <!-- Instructors -->
+    <section class="p-5 bg-primary" id="Instructors">
+        <div class="container">
+            <h2 class="text-center text-white">Our Instructors</h2>
+            <p class="lead text-center text-white mb-5">Our Instructors all have 5+ years working as a web developer in the industry</p>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="img/Israel.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title">Israel Goytom</h3>
+                            <p class="card-text">8+ years of web development experience, holds a Bachelor's degree in Computer Science, with a focus on HTML and CSS.</p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="img/Samson.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title">Samson Endale</h3>
+                            <p class="card-text">7+ years experience as a web developer, holds a Bachelor's degree in Information Technology, with experience in JavaScript and React.</p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="img/temkin.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title">Temkin Mengistu</h3>
+                            <p class="card-text">6+ years of experience in web development, holds a Master's degree in Web Development, with a specialization in React.</p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="img/Elshaday.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title">Elshaday Tegegn</h3>
+                            <p class="card-text">5+ years of experience as a web developer, holds a Bachelor's degree in Software Engineering, with expertise in Angular.</p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact and map -->
+    <section class="p-5">
+        <div class="container">
+           <div class="row g-4">
+            <div class="col-md">
+                <h2 class="text-center mb-4">Contact Info</h2>
+                <ul class="li-group li-group-flush lead">
+                    <li class="list-group-item">
+                        <span class="fw-bold">Main Location:</span> Poly Campus, Bahirdar, Ethiopia
+                    </li>
+                    <li class="list-group-item">
+                        <span class="fw-bold">Enrollment phone:</span> +251-945-703-281
+                    </li>
+                    <li class="list-group-item">
+                        <span class="fw-bold">student phone:</span> +251-946-403-497
+                    </li>
+                    <li class="list-group-item">
+                        <span class="fw-bold">Enrollment Email:</span> frontenddev2023@gmail.com
+                    </li>
+                    <li class="list-group-item">
+                        <span class="fw-bold">Student Email:</span> studem2023@gmail.com
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md">
+                <div id="map">
+                   <img src="img/map.png" class="img-fluid">
+                </div>
+            </div>
+           </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; 2023 Frontend Bootcamp</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+<div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="enrollLabel">Start the Enrollment</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">Fill out this form and we will get back to you</p>
+          <form>
+            <div class="mb-3">
+                <label for="first-name" class="fol-form-label">First Name</label>
+                <input type="text" class="form-control" id="first-name">
+            </div>
+            <div class="mb-3">
+                <label for="last-name" class="fol-form-label">Last Name </label>
+                <input type="text" class="form-control" id="first-name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="fol-form-label">Email</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="fol-form-label">Phone Number</label>
+                <input type="text" class="form-control" id="phone">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+</body>
+</html>
